@@ -23,6 +23,13 @@ end
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+group :test do
+  # Pretty printed test output
+  gem 'turn', :require => false
+end
+
+gem 'will_paginate', '~> 3.0'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
